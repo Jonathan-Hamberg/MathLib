@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{48c29f0f-e26b-4c5a-991f-863276764b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\unit_test">
+      <UniqueIdentifier>{ccdd8950-118c-41d5-b954-d3cb545482cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gtest">
+      <UniqueIdentifier>{ab0cc788-4e88-4c80-9c0c-42e373f671c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gtest\src">
+      <UniqueIdentifier>{06654a37-3fcf-4373-9b2b-fec19b155d81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\unit_test\color_rgb_test.cpp">
+      <Filter>src\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\unit_test\test_main.cpp">
+      <Filter>src\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\unit_test\fraction_number_test.cpp">
+      <Filter>src\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\unit_test\real_number_test.cpp">
+      <Filter>src\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\unit_test\intx_t_test.cpp">
+      <Filter>src\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\unit_test\matrix_test.cpp">
+      <Filter>src\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gtest\src\gtest-all.cc">
+      <Filter>src\gtest\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\unit_test\complex_test.cpp">
+      <Filter>src\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\color_rgb.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\complex.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\fraction.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\intx_t.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matrix.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\real.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\color_rgb.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\complex.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\fraction.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\intx_t.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matrix.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\real.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
